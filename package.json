@@ -1,0 +1,14 @@
+{
+  "name": "Spin",
+  "version": "0.1.0",
+  "description": "Angular + Material + Electron",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc & cd ./renderer & ng build --prod --e=dev --bh ./ & cd ../ & electron ./build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/electron": "~1.4.0",
+    "@types/node": "^6.0.0"
+  }
+}
